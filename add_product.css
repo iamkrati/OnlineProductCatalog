@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  input, textarea, select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  select {
+    appearance: none;
+  }
+  button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    background-color: brown;
+  }
